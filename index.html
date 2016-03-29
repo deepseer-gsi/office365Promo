@@ -28,43 +28,45 @@
   
  <div id="wrapper" class="container-fluid">
          
- <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+ <nav id="menu" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
  
  <div class="navbar-header">
- <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+ <button id='but-mob' type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
  <span class="sr-only">Toggle navigation</span>
  <span class="icon-bar"></span>
  <span class="icon-bar"></span>
  <span class="icon-bar"></span>
  </button>
- <a class="navbar-brand" href="#"> 
+ <a class="navbar-brand" href="https://products.office.com/uk-UA/"> 
  <img id="logo" src="images/PMG_Icon_Office_81x25.png"> 
  </a>
- </div> 
+ </div>
  
  <div class="collapse navbar-collapse" id="navbarCollapse"> 
  <div class="container-fluid">
- <ul class="nav navbar-nav navbar-right"> 
- <li><a href="#">Шаблони</a></li> 
- <li><a href="#">Магазин</a></li> 
- <li><a href="#">Підтримка</a></li> 
- <li><a href="#">Мій обліковий запис</a></li> 
- <li class="active"><a href="#">Вхід</a></li> 
+ <ul id= "menumob" class="nav navbar-nav navbar-right"> 
+ <li><a id="menubut1" href="https://templates.office.com/">Шаблони</a></li> 
+ <li><a id="menubut2" href="https://store.office.com/">Магазин</a></li> 
+ <li><a id="menubut3" href="https://support.office.com/">Підтримка</a></li> 
+ <li><a id="menubut4" href="http://go.microsoft.com/fwlink/p/?LinkID=507404">Мій обліковий запис</a></li> 
+ <li class="active"><a id="menubut5" href="http://go.microsoft.com/fwlink/p/?LinkID=507404">Вхід</a></li> 
  </ul> 
  </div>
  </div> 
  </nav>
-    
+
+   
 <div id="header" class="row">
 <div id="text1" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 <h1>Навчаєшся або працюєш<br>в ДонНУ?</h1>
-<br>
 <h1>Отримай найповніший пакет Office на свої пристрої</h1> 
-<br>
 <h1>безкоштовно!</h1>
 </div>
 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
 <img id="img1" src="images/people-office.png"> 
+</div>
+<div id='scroll'>
+<a id='scrolllink' href="#"><img id="imgscroll" src="images/arrows.png"></a>
 </div>
 </div>
 
@@ -118,7 +120,7 @@
 1
 </div>
 <div id="maintxt1" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-<h1 id='maintxth1'>Отримай або віднови свій корпоративний обліковий запис</h1>
+<h2 id='maintxth1'>Отримай або віднови свій корпоративний обліковий запис</h2>
 <h4>Корпоративний обліковий запис – це пропуск у всі сервіси.<br>
 Якщо ти не пам’ятаєш свій пароль, зв’яжися зі службою технічної підтримки.</h4>
 <h4>Телефони:<br>
@@ -139,15 +141,15 @@
 2
 </div>
 <div id="maintxt2" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-<h1>Встанови легальний Office на свій ПК</h1>
+<h2>Встанови легальний Office на свій ПК</h2>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 <img id="mainimg2" src="images/button-office365.png">
 </div>
 
 <ul class="buttons">
-    <a href="#" class='row'><li id="but1" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"><img class='col-lg-2 col-md-2' id='imgbut1' src="images/student.png"><h3 class='col-lg-10 col-md-10' id='buttxt1'> Якщо ти студент, натисни тут</h3></li></a>
-    <a href="#" class='row'><li id="but2" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"><img class='col-lg-2 col-md-2' id='imgbut2' src="images/prep.png"><h3 class='col-lg-10 col-md-10' id='buttxt2'> Якщо ти викладач або співробітник,<br>натисни тут</h3></li></a>
+    <a href="#" class='row'><li id="but1" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"><img class='col-lg-2 col-md-2 hidden-sm hidden-xs' id='imgbut1' src="images/student.png"><h3 class='col-lg-10 col-md-10' id='buttxt1'> Якщо ти студент, натисни тут</h3></li></a>
+    <a href="#" class='row'><li id="but2" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"><img class='col-lg-2 col-md-2 hidden-sm hidden-xs' id='imgbut2' src="images/prep.png"><h3 class='col-lg-10 col-md-10' id='buttxt2'> Якщо ти викладач або співробітник, натисни тут</h3></li></a>
 </ul>
 
 </div>
@@ -157,7 +159,7 @@
 3
 </div>
 <div id="maintxt3" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-<h1>Встанови додатки на мобільні пристрої</h1>
+<h2>Встанови додатки на мобільні пристрої</h2>
 </div>
 </div>
     
@@ -203,16 +205,15 @@
 </div>
 
 </div>
-
-
-          
-           
+      
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/less-2.5.3.js"></script>
     <script src="js/animate.js"></script>
+    <script src="js/my.js"></script>
 
 </body>
   
