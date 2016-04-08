@@ -1,4 +1,4 @@
- $("#maininfo1").on('inview', function (event, isInView) {
+$("#maininfo1").on('inview', function (event, isInView) {
     if (isInView) {
         $("#maininfo1").css({opacity:  "1"});
         }
@@ -16,7 +16,8 @@
         }
    });
 
-/*function setheight(){ 
+
+/**function setheight(){ 
 var theWindow = $(window).height(); 
 $('#header').height(theWindow); 
 } 
@@ -27,5 +28,5 @@ setheight();
 
 $(window).resize(function(){ 
 setheight(); 
-});*/
+});**/
 
