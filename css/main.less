@@ -20,9 +20,13 @@
 
 
 @media only screen and (max-width: 400px) {
-        #buttxt1 {margin-top: 6% !important;
+	.buttons {
+	margin-left: 20px;
+	width: 92% !important;
+}
+    #buttxt1 {margin-top: 6% !important;
             margin-bottom: 6% !important;}
-        #buttxt2 {
+    #buttxt2 {
     margin-top: 3.5% !important;
     margin-bottom: 3.5% !important;
 }
@@ -55,13 +59,17 @@
 }
 
 @media only screen and (min-width: 401px) {
+	.buttons {
+	margin-left: 20px;
+	width: 86% !important;
+}
     #buttxt1 {margin-top: 7% !important;
             margin-bottom: 7% !important;}
     #buttxt2 {
     margin-top: 6% !important;
     margin-bottom: 6% !important;
 }
-        #imgfoot1 {
+    #imgfoot1 {
     height: 24px !important;
         }
      h5 {
@@ -90,13 +98,29 @@
 }
 
 @media only screen and (min-width: 750px) {
+	.buttons {
+	margin-left: 20px;
+	width: 86% !important;
+}
     #buttxt1 {margin-top: 6%;
             margin-bottom: 6%;}
     #buttxt2 {
     margin-top: 3.5%;
     margin-bottom: 3.5%;
 }
-            #imgfoot1 {
+	#mainimg1 {
+    width: 28%;
+    max-width:100%;
+    margin-top: 20px;
+}
+
+    #mainimg2 {
+    width: 28%;
+    max-width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    #imgfoot1 {
             height: 44px !important;
             }
      h5 {
@@ -125,12 +149,29 @@
 }
 
 @media only screen and (min-width: 992px) {
+	.buttons {
+	margin-left: 20px;
+	width: 92% !important;
+}
     #buttxt1 {margin-top: 6% !important;
             margin-bottom: 6% !important;}
-        #buttxt2 {
+    #buttxt2 {
     margin-top: 3.5% !important;
     margin-bottom: 3.5% !important;
 }
+	#mainimg1 {
+    width: 35%;
+    max-width:100%;
+    margin-top: 20px;
+}
+
+    #mainimg2 {
+    width: 35%;
+    max-width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
      h5 {
             font-size: 320% !important;
             line-height: 63px !important;
@@ -148,7 +189,7 @@
             letter-spacing: .1px !important;
         }
      h3 {
-            font-size: 180% !important;
+            font-size: 170% !important;
         }
      h4 {
             font-size: 130% !important;
@@ -158,12 +199,30 @@
 }
 
 @media only screen and (min-width: 1200px) {
+	.buttons {
+	margin-left: 20px;
+	width: 92% !important;
+}
     #buttxt1 {margin-top: 6% !important;
             margin-bottom: 6% !important;}
-        #buttxt2 {
+    #buttxt2 {
     margin-top: 3.5% !important;
     margin-bottom: 3.5% !important;
 }
+	
+	#mainimg1 {
+    width: 35%;
+    max-width:100%;
+    margin-top: 20px;
+}
+
+    #mainimg2 {
+    width: 35%;
+    max-width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
     h5 {
             font-size: 360% !important;
             line-height: 70px !important;
@@ -338,8 +397,8 @@ A:active {
 
 #rmenu {
     background-color: #7FBA00;
-    width: 17px;
-    height: 220px;
+    width: 52px;
+    height: 200px;
     position: fixed;
     right: 0px;
     z-index: 1;
@@ -352,8 +411,8 @@ transition: all 0.5s ease-in-out;
 }
 
 #rmenu:hover {
-    width: 250px;
-    height: 220px;
+    width: 280px;
+    height: 200px;
 }
 
 #home {
@@ -368,7 +427,7 @@ transition: all 0.5s ease-in-out;
 
 #rmenulist LI {
     padding-left: 15px;
-    width: 200px;
+    width: 280px;
     margin-bottom: -8px;
 }
 
@@ -572,7 +631,8 @@ opacity: 0;
 }
 
 #maininfo {
-    margin-left: 7%;
+position: relative;
+	left: 3%;
 }
 
 .circle {
@@ -611,11 +671,6 @@ transition: all 2s ease-in-out;
         color: #333333;
     }
 
-#mainimg1 {
-    width: 35%;
-    max-width:100%;
-    margin-top: 20px;
-}
 
 #maininfo2 {
             opacity: 0.2;
@@ -625,13 +680,6 @@ transition: all 2s ease-in-out;
 -ms-transition: all 2s ease-in-out; 
 transition: all 2s ease-in-out;
     border-left: 2px solid #DA3B01
-}
-
-#mainimg2 {
-    width: 35%;
-    max-width:100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #but1 {background-color: #008A00; margin-bottom: 10px;}
@@ -656,8 +704,8 @@ transition: all 2s ease-in-out;
 #imgbut2 {
     width:75px;
     max-width: 100%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 #buttxt2 {
