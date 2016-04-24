@@ -49,6 +49,37 @@ id = id.substring(0, id.length - 1);
 $('html, body').animate({scrollTop: $('#' + id).offset().top}, 800);
 }
 
+//переключение маркеров в зоне видимости блоков
+$("#header").on('inview', function (event, isInView) {
+    if (isInView) {
+		//alert ('ghjk');
+		}
+   });
+
+$("#office").on('inview', function (event, isInView) {
+    if (isInView) {
+        }
+   });
+
+$("#maininfo").on('inview', function (event, isInView) {
+    if (isInView) {
+        }
+   });
+
+$("#mobile").on('inview', function (event, isInView) {
+    if (isInView) {
+        }
+   });
+
+/**function setheight()
+  { var theWindow = $(window).height(); 
+   $('#header').height(theWindow);  
+   //alert("monitorHeight: " + theWindow); 
+     } $(window).load(function() { setheight(); 
+								 }); 
+   $(window).resize(function(){ setheight(); });**/
+   
+
 //высота первого блока подстраивается под окно браузера
 /**function setHeiHeight() {
     $('#header').css({
