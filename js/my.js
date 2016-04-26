@@ -84,25 +84,16 @@ $("#mobile").on('inview', function (event, isInView) {
         }
    });
 
-/**function setheight()
+//высота первого блока подстраивается под ширину браузера
+
+function setheight()
   { var theWindow = $(window).height(); 
-   $('#header').height(theWindow);  
+   $('#wrapheadercon').height(theWindow);  
    //alert("monitorHeight: " + theWindow); 
      } $(window).load(function() { setheight(); 
 								 }); 
-   $(window).resize(function(){ setheight(); });**/
+   $(window).resize(function(){ setheight(); });
    
-
-//высота первого блока подстраивается под окно браузера
-/**function setHeiHeight() {
-    $('#header').css({
-        height: $(window).height() + 'px';
-        alert(height);
-    });
-}
-setHeiHeight(); // устанавливаем высоту окна при первой загрузке страницы
-$(window).resize( setHeiHeight ); // обновляем при изменении размеров окна
-**/
 
 /**function setheight(){
     var theWindow = $(window).height();
