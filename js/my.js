@@ -20,6 +20,20 @@ $("#maininfo1").on('inview', function (event, isInView) {
 //затемнение первого блока
 $(window).scroll(function() {
 var top = $(document).scrollTop();
+if (top > 100) $('#wrapheadercon').addClass('shadow1');//200 - это значение высоты прокрутки страницы для добавления класс
+else $('#wrapheadercon').removeClass('shadow1');
+    if (top > 150) $('#wrapheadercon').addClass('shadow2'); //200 - это значение высоты прокрутки страницы для добавления класс
+else $('#wrapheadercon').removeClass('shadow2');
+    if (top > 200) $('#wrapheadercon').addClass('shadow3'); //200 - это значение высоты прокрутки страницы для добавления класс
+else $('#wrapheadercon').removeClass('shadow3');
+    if (top > 250) $('#wrapheadercon').addClass('shadow4'); //200 - это значение высоты прокрутки страницы для добавления класс
+else $('#wrapheadercon').removeClass('shadow4');
+    if (top > 300) $('#wrapheadercon').addClass('shadow5'); //200 - это значение высоты прокрутки страницы для добавления класс
+else $('#wrapheadercon').removeClass('shadow5');
+});
+
+$(window).scroll(function() {
+var top = $(document).scrollTop();
 if (top > 100) $('#header').addClass('shadow1');//200 - это значение высоты прокрутки страницы для добавления класс
 else $('#header').removeClass('shadow1');
     if (top > 150) $('#header').addClass('shadow2'); //200 - это значение высоты прокрутки страницы для добавления класс
@@ -30,7 +44,6 @@ else $('#header').removeClass('shadow3');
 else $('#header').removeClass('shadow4');
     if (top > 300) $('#header').addClass('shadow5'); //200 - это значение высоты прокрутки страницы для добавления класс
 else $('#header').removeClass('shadow5');
-    //alert ('ghjkl');
 });
 
 //плавная прокрутка
