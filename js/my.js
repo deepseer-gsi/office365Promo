@@ -65,22 +65,25 @@ $('html, body').animate({scrollTop: $('#' + id).offset().top}, 800);
 //переключение маркеров в зоне видимости блоков
 $("#header").on('inview', function (event, isInView) {
     if (isInView) {
-		//alert ('ghjk');
+		$('#header-input')[0].checked = true;
 		}
    });
 
 $("#office").on('inview', function (event, isInView) {
     if (isInView) {
+		$('#office-input')[0].checked = true;
         }
    });
 
 $("#maininfo").on('inview', function (event, isInView) {
     if (isInView) {
+		$('#get-input')[0].checked = true;
         }
    });
 
 $("#mobile").on('inview', function (event, isInView) {
     if (isInView) {
+		$('#mobile-input')[0].checked = true;
         }
    });
 
