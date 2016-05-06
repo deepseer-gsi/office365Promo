@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 400px) {
 		#header {
-    padding-top: 110px !important;
+    padding-top: 70px !important;
 }
 	#img1 {
     position: relative;
@@ -121,7 +121,7 @@
 
 @media only screen and (min-width: 768px) {
 	#header {
-    padding-top: 10px !important;
+    padding-top: 130px !important;
 }
 	#img1 {
     position: relative;
@@ -365,6 +365,7 @@ A:active {
 
 #wrapheadercon {
 	background-color: #DA3B01;
+	border: none !important;
 }
 #wrapofficecon {
 	background-color: #ECF0F1;
@@ -534,26 +535,27 @@ input[type="radio"] + label {
 }
 
 .shadow1 {
-    box-shadow:0 0 0 400px rgba(0, 0, 0, 0.2) inset;
+    box-shadow:0 0 0 1200px rgba(0, 0, 0, 0.2) inset;
 }
 
 .shadow2 {
-    box-shadow:0 0 0 400px rgba(0, 0, 0, 0.4) inset;
+    box-shadow:0 0 0 1200px rgba(0, 0, 0, 0.4) inset;
 }
 .shadow3 {
-    box-shadow:0 0 0 400px rgba(0, 0, 0, 0.6) inset;
+    box-shadow:0 0 0 1200px rgba(0, 0, 0, 0.6) inset;
 }
 
 .shadow4 {
-    box-shadow:0 0 0 400px rgba(0, 0, 0, 0.8) inset;
+    box-shadow:0 0 0 1200px rgba(0, 0, 0, 0.8) inset;
 }
 
 .shadow5 {
-    box-shadow:0 0 0 400px rgba(0, 0, 0, 1) inset;
+    box-shadow:0 0 0 1200px rgba(0, 0, 0, 1) inset;
 }
 
 #header {
     background-color: #DA3B01;
+	border: none !important;
 }
 
 #text1 {
@@ -597,19 +599,19 @@ opacity: 0;
 
 #imgof1 {
     margin-top: 3%;
-    width: 113;
+    width: 113px;
     max-width: 100%;
 }
 
 #imgof2 {
     margin-top: 3%;
-    width: 113;
+    width: 113px;
     max-width:100%;
 }
 
 #imgof3 {
     margin-top: 3%;
-    width: 113;
+    width: 113px;
     max-width:100%;
 }
 
@@ -631,18 +633,18 @@ opacity: 0;
 #imgof4 {
     margin-top: 3%;
     max-width:100%;
-    width: 113;
+    width: 113px;
 }
 
 #imgof5 {
     margin-top: 3%;
-    width: 113;
+    width: 113px;
     max-width:100%;
 }
 
 #imgof6 {
     margin-top: 3%;
-    width: 113;
+    width: 113px;
     max-width:100%;
 }
 
@@ -737,7 +739,7 @@ transition: all 2s ease-in-out;
 border-left: 2px solid #DA3B01
 }
 
-#but1 {background-color: #008A00; margin-bottom: 10px;}
+#but1 {background-color: #008A00;}
 
 #but1:hover {opacity: 0.8;}
 
@@ -753,7 +755,7 @@ border-left: 2px solid #DA3B01
 }
 
 #buttxt1 {
-    margin: 0;
+    margin: 0px;
 }
 
 #imgbut2 {
@@ -764,7 +766,7 @@ border-left: 2px solid #DA3B01
 }
 
 #buttxt2 {
-margin: 0;
+margin: 0px;
 }
 
 #maininfo3 {
@@ -774,7 +776,7 @@ opacity: 0.2;
 -o-transition: all 2s ease-in-out; 
 -ms-transition: all 2s ease-in-out; 
 transition: all 2s ease-in-out;
-padding-top: 20px;
+padding-top: 0px;
 border-left: 2px solid #DA3B01;
 padding-bottom: 2%;
 }
