@@ -96,18 +96,3 @@ function setheight()
      } $(window).load(function() { setheight(); 
 								 }); 
    $(window).resize(function(){ setheight(); });
-   
-
-/**function setheight(){
-    var theWindow = $(window).height();
-    $('#header').height(theWindow);
-    //alert("monitorHeight: " + theWindow);
-    }
-
-    $(window).load(function() {
-    setheight();
-    });
-
-    $(window).resize(function(){
-    setheight();
-    });**/
